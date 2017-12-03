@@ -1,8 +1,8 @@
-### Testing task 1 code:
+## Testing task 1 code:
 
-# # Carry out static testing on the code below.
-# # Read through the code.
-# # Comment any errors you can see without correcting them.
+# Carry out static testing on the code below.
+# Read through the code.
+# Comment any errors you can see without correcting them.
 
 def func1 val
   if val = 1
@@ -12,9 +12,9 @@ def func1 val
   end
 end
 
-# #naming convention and syntax errors on line 8. function name should be descriptive and val should be named value and in brackets because it is a parameter.
-# # syntax error on line 9, = should be ==. Val should be value (matching the parameter)
-# #indentation errors on line 10 and 12.
+#naming convention and syntax errors on line 8. function name should be descriptive and val should be named value and in brackets because it is a parameter.
+# syntax error on line 9, = should be ==. Val should be value (matching the parameter)
+#indentation errors on line 10 and 12.
 
 dif max a b
   if a > b
@@ -25,15 +25,15 @@ dif max a b
 end
 end
 
-# #naming errors on line 19. wrong function name(not a good implication of what the function does), a and b shoud be in brackets as they are parameters.
-# #typo on line 19, dif should be def.
-# #extra end statement on line 26.
-# #bad indentations on line 21 and 23.
-# #missing return on line 23.
+#naming errors on line 19. wrong function name(not a good implication of what the function does), a and b shoud be in brackets as they are parameters.
+#typo on line 19, dif should be def.
+#extra end statement on line 26.
+#bad indentations on line 21 and 23.
+#missing return on line 23.
 
 def looper
   for i in 1..10
-  puts i
+  return i
   end
 end
 
@@ -48,6 +48,7 @@ if looper == 10
 else
   puts "looper failed"
   failures = failures + 1
+end
 
 #missing end statement on line 51.
 
